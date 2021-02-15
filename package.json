@@ -1,0 +1,46 @@
+{
+  "name": "reference-protocol-environment",
+  "version": "1.0.0",
+  "description": "#nonumber_is_rp_draft_a_150221_15bevbdp36t0x",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack serve --mode development"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor-smolkov/rp.git"
+  },
+  "keywords": [
+    "reference",
+    "protocol",
+    "environment",
+    "identification",
+    "string",
+    "origami",
+    "script",
+    "extension"
+  ],
+  "author": "Igor Smolkov <smolkov.igor@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/igor-smolkov/rp/issues"
+  },
+  "homepage": "https://github.com/igor-smolkov/rp#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
